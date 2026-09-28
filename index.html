@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <input type="text" placeholder="Busca" id="buscaPorTitulo" />
+
+        <input
+            type="radio"
+            id="todas"
+            name="categoria"
+            value=""
+            checked
+        >
+        <label for="todas">Todas</label>
+
+        <input
+            type="radio"
+            id="tecnologia"
+            name="categoria"
+            value="Tecnologia"
+        >
+        <label for="tecnologia">Tecnologia</label>
+        <input
+            type="radio"
+            id="negocios"
+            name="categoria"
+            value="Negócios"
+        >
+        <label for="negocios">Negócios</label>
+        <input
+            type="radio"
+            id="ciencia"
+            name="categoria"
+            value="Ciência"
+        >
+        <label for="ciencia">Ciência</label>
+        <input
+            type="radio"
+            id="cultura"
+            name="categoria"
+            value="Cultura"
+        >
+        <label for="ciencia">Cultura</label>
+        <input
+            type="radio"
+            id="opiniao"
+            name="categoria"
+            value="Opinião"
+        >
+        <label for="opiniao">Opinião</label>
+
+        <div id="listaNoticias" class="grid-noticias"></div>
+
+        <button id="buttonCarregarMais">
+            Carregar mais
+        </button>
+        <div class="relogio-container">
+            <span class="bolinha-atualizacao"></span>
+            <p id="relogio"></p>
+        </div>
+        <input
+    type="email"
+    id="emailNewsletter"
+    placeholder="Digite seu e-mail"
+    required
+>
+
+<button id="buttonAssinar">
+    Assinar newsletter
+</button>
+    </body>
+</html>
